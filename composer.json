@@ -1,0 +1,23 @@
+{
+    "name":"wlkj/dev",
+    "description": "Laravel 5.1 wrapper for the Dev API.",
+    "homepage": "http://www.ylhkc.com",
+    "license":"MIT",
+    "keywords": ["wlkj", "dev", "debug"],
+    "version":"0.1",
+    "authors": [
+		{
+			"name": "Joe Jiang",
+			"email": "ceo@50wd.com",
+			"homepage": "http://www.ylhkc.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Wlkj\\Dev\\": "src/"
+		}
+	}
+}
