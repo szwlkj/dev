@@ -1,4 +1,4 @@
-<?php namespace Wlkj\dev;
+<?php namespace Wlkj\Dev;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
@@ -26,7 +26,7 @@ class DevServiceProvider extends ServiceProvider {
 	{
 		$this->app['dev'] = $this->app->share(
             function ($app) {
-                return new \Wlkj\dev\Dev();
+                return new \Wlkj\Dev\Dev();
             }
         );
 	}
